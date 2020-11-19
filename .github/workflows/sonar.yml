@@ -39,7 +39,7 @@ jobs:
           -Dsonar.projectKey=Mastercard_oauth1-signer-python \
           -Dsonar.organization=mastercard  \
           -Dsonar.sources=./src \
-          -Dsonar.tests=./test \
+          -Dsonar.tests=./tests \
           -Dsonar.python.coverage.reportPaths=coverage.xml \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=$SONAR_TOKEN
